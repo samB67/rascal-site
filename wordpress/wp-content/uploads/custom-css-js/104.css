@@ -1,0 +1,37 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@media only screen and (min-width: 769px) {
+
+.hover-reveal {
+	position: fixed;
+	width: 300px;
+	height: 300px;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	opacity: 0;
+}
+
+.hover-reveal__inner,
+.hover-reveal__img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+
+.hover-reveal__img {
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+
+
+.elementor-widget-heading .elementor-heading-title:hover {
+  position: relative;
+  z-index: 99999999
+}
+  
+
+}</style>
+<!-- end Simple Custom CSS and JS -->
